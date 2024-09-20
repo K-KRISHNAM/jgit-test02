@@ -14,7 +14,7 @@ pipeline {
         }
          stage('Hello-stage3') {
             steps {
-                echo 'Hello World'
+                echo $TF_code
             }
         }
     }
